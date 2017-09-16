@@ -35,8 +35,9 @@ while keepPlaying:
 	screen.fill(BLUE)
 	#then you can draw different shapes and lines or add text to your background stage
 	#the sun
-	pygame.draw.line(screen, YELLOW, [20,20], [50,50], 5)
 	pygame.draw.ellipse(screen, YELLOW, [50,50,100,100], 0)
+	pygame.draw.line(screen, YELLOW, [20,20], [50,50], 5)
+	pygame.draw.line(screen, YELLOW, [100,10], [100,40], 5)
 	#the tree
 	pygame.draw.rect(screen, BROWN, [535,250,30,150], 0)
 	pygame.draw.ellipse(screen, GREEN, [500,150,100,150], 0)
